@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2024, 11:03:05 PM
+    Author     : ngthuthuy
+*/
+
+.top-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#fff;
+    -fx-border-width:.2px .2px .4px .2px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #D994AB;   
+}
+.minus{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.minus:hover{
+    -fx-background-color: #D994AB;
+}
+.nav-form{
+    -fx-background-color: linear-gradient(to top right, #D47C9B, #fff);
+}
+.nav_btn{
+    -fx-background-color: transparent;
+    
+   
+}
+.nav_btn:hover{
+    -fx-background-color: #D47C9B;
+}
+.sign_out{
+    -fx-background-color: transparent;
+    
+}
+.back_white{
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius: 8px;
+    
+}
+.card1{
+    -fx-background-color: linear-gradient(to left, #97D2F4, #F0FAFF);
+    
+/*    -fx-background-color:#97D2F4;*/
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius: 0px 8px 8px 10px;
+
+    
+}
+.card2{
+    -fx-background-color: linear-gradient(to left, #F1F489, #FFFAEB);
+/*    -fx-background-color:#F1F489;*/
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius: 0px 8px 8px 10px;
+    
+}
+.card3{
+    -fx-background-color: linear-gradient(to left, #75FA8D, #E7FAE9);
+/*    -fx-background-color:#75FA8D;*/
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius: 0px 8px 8px 10px;
+}
+.insert_btn{
+    -fx-background-color: #66afe9;
+}
+.update_btn{
+    -fx-background-color: #40CF7B;
+}
+.delete_btn{
+    -fx-background-color: #E3E14C;
+}
+.clear_btn{
+    -fx-background-color: #EB7957;
+}
+.table-view{
+-fx-background-color:#fff;
+
+-fx-border-color: #EBB4C5;
+-fx-border-radius:10px;
+-fx-fill:#fff;
+}
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to top left, #FF91CB, #EBB4C5);
+    -fx-background-radius: 10px 10px 0 0;
+     -fx-pref-height: 50px; /* Tăng chiều cao của header */
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    
+    -fx-fill: #fff;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #fff;
+}
+.info_card{
+    -fx-border-color: #EBB4C5;
+    -fx-border-radius: 10px 0px 0px 10px;
+}
+.btn_comb{
+    -fx-background-color: #fff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 5px;
+}
+.btn_custom{
+    -fx-background-color: #fff;
+    -fx-border-color: #EBB4C5;
+    -fx-border-radius: 5px;
+}
+.text_card{
+        -fx-border-color: #EBB4C5;
+        -fx-border-radius: 3px;
+}
+/*.search{
+    -fx-border-color: #969696;
+    -fx-border-radius: 3px;
+}
+.search:focused{
+        -fx-border-color: #EBB4C5;
+}*/
